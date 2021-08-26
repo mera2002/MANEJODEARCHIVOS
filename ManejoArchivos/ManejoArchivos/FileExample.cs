@@ -42,6 +42,8 @@ namespace ManejoArchivos
                     Console.ReadKey();
                     return true;
                 case "3":
+                    deleteData(); //llamado al metodo para eliminar
+                    Console.ReadKey();
                     return true;
                 case "4":
                     //mostrar el contenido del archivo
@@ -160,8 +162,41 @@ namespace ManejoArchivos
             }
         }
 
+        //metodo para eliminar
         private static void deleteData()
         {
+            //solicitar el elemnto a modificar
+            Console.Write("Escriba el nombre del estudiante a eliminar: ");
+            var name = Console.ReadLine();
+
+            //realizar la busqueda
+            if (search(name))
+            {
+                Console.WriteLine("El registro existe!");
+                //declarar un diccionario
+                Dictionary<object, object> temp = new Dictionary<object, object>();
+                temp = readFile();
+
+                temp.Remove(name); //eliminar elemento del diccionario
+
+                Console.WriteLine("El registro ha sido eliminado!");
+                File.Delete(getPath()); //eliminamos archivos y posteriormente lo volvemos a crear
+
+                using (StreamWriter sw = File.AppendText(getPath()))
+                {
+                    //leer diccionario temporal y almacenar los elementos en el archivo
+                    foreach (KeyValuePair<object, object> values in temp)
+                    {
+                        sw.WriteLine("{0}; {1}", values.Key, values.Value);
+                        // sw.Close();
+                    }
+                }
+
+            }
+            else
+            {
+                Console.WriteLine("El registro no se encontro!");
+            }
 
         }
     }
