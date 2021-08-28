@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "compra_en_linea", "compra_en_linea\compra_en_linea.csproj", "{8982409A-C899-47CB-B90E-0767F843665B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8982409A-C899-47CB-B90E-0767F843665B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8982409A-C899-47CB-B90E-0767F843665B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8982409A-C899-47CB-B90E-0767F843665B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8982409A-C899-47CB-B90E-0767F843665B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DAF3EF54-A0AF-4FE6-91B2-5325977278BF}
+	EndGlobalSection
+EndGlobal

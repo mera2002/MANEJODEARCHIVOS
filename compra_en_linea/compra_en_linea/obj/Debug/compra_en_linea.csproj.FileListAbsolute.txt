@@ -1,0 +1,7 @@
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\bin\Debug\compra_en_linea.exe.config
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\bin\Debug\compra_en_linea.exe
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\bin\Debug\compra_en_linea.pdb
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\obj\Debug\compra_en_linea.csproj.AssemblyReference.cache
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\obj\Debug\compra_en_linea.csproj.CoreCompileInputs.cache
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\obj\Debug\compra_en_linea.exe
+C:\Users\julissa\source\repos\compra_en_linea\compra_en_linea\obj\Debug\compra_en_linea.pdb
